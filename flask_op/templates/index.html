@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Mushroom Classifier</title>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/global.css') }}">
+
+</head>
+
+
 <body>
+
+
 
  <table border=0 width=100% bgcolor = "#b5dcb3">
   <tr>
     <td>
-      <a href = "about" target="-_body" style="text-decoration:none"><b>
+      <a href = "about"  style="text-decoration:none"><b>
       About</b>
       </a>
     </td>
     <td>
-      <a href = "contact" target="-_body" style="text-decoration:none"><b>
+      <a href = "contact"  style="text-decoration:none"><b>
       Contact
     </a>
     </td>
   </tr>
 </table>
 
-  
-<div>
-  <h1>Mushroom Classifier</h1> 
-  <p>Use this website to determine whether or not your mushrooms are edible or poisonous!</p> 
-</div>
 
-<div>
+  <h1>Mushroom Classifier</h1>
+  <div id='apple'>
+<p>Use this website to determine whether or not your mushrooms are edible or poisonous!</p>
+</div>
   <div>
     <h2>How it works</h2>
     <p>Mushroom Classifier is an algorithm that uses machine learning techniques to predict if your mushrooms are safe to eat.</p>
